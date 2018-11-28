@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8293F69621AE8606005BDE6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293F69521AE8606005BDE6B /* AppDelegate.m */; };
+		8293F69921AE8606005BDE6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293F69821AE8606005BDE6B /* ViewController.m */; };
+		8293F69C21AE8606005BDE6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8293F69A21AE8606005BDE6B /* Main.storyboard */; };
+		8293F69E21AE8607005BDE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8293F69D21AE8607005BDE6B /* Assets.xcassets */; };
+		8293F6A121AE8607005BDE6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8293F69F21AE8607005BDE6B /* LaunchScreen.storyboard */; };
+		8293F6A421AE8607005BDE6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293F6A321AE8607005BDE6B /* main.m */; };
+		8293F6AE21AE8608005BDE6B /* PraiseToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293F6AD21AE8608005BDE6B /* PraiseToolDemoTests.m */; };
+		8293F6B921AE8608005BDE6B /* PraiseToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293F6B821AE8608005BDE6B /* PraiseToolDemoUITests.m */; };
+		8293F6C921AE8666005BDE6B /* PraiseToolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293F6C821AE8666005BDE6B /* PraiseToolVC.m */; };
+		8293F6CD21AE87E9005BDE6B /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293F6CB21AE87E9005BDE6B /* ShowViewController.m */; };
+		8293F6CE21AE87E9005BDE6B /* ShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293F6CC21AE87E9005BDE6B /* ShowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8293F6AA21AE8608005BDE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8293F68921AE8606005BDE6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8293F69021AE8606005BDE6B;
+			remoteInfo = PraiseToolDemo;
+		};
+		8293F6B521AE8608005BDE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8293F68921AE8606005BDE6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8293F69021AE8606005BDE6B;
+			remoteInfo = PraiseToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8293F69121AE8606005BDE6B /* PraiseToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraiseToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8293F69421AE8606005BDE6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8293F69521AE8606005BDE6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8293F69721AE8606005BDE6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8293F69821AE8606005BDE6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8293F69B21AE8606005BDE6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8293F69D21AE8607005BDE6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8293F6A021AE8607005BDE6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8293F6A221AE8607005BDE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8293F6A321AE8607005BDE6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8293F6A921AE8608005BDE6B /* PraiseToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraiseToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8293F6AD21AE8608005BDE6B /* PraiseToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PraiseToolDemoTests.m; sourceTree = "<group>"; };
+		8293F6AF21AE8608005BDE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8293F6B421AE8608005BDE6B /* PraiseToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraiseToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8293F6B821AE8608005BDE6B /* PraiseToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PraiseToolDemoUITests.m; sourceTree = "<group>"; };
+		8293F6BA21AE8608005BDE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8293F6C721AE8666005BDE6B /* PraiseToolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseToolVC.h; sourceTree = "<group>"; };
+		8293F6C821AE8666005BDE6B /* PraiseToolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseToolVC.m; sourceTree = "<group>"; };
+		8293F6CA21AE87E9005BDE6B /* ShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		8293F6CB21AE87E9005BDE6B /* ShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		8293F6CC21AE87E9005BDE6B /* ShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8293F68E21AE8606005BDE6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8293F6A621AE8608005BDE6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8293F6B121AE8608005BDE6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8293F68821AE8606005BDE6B = {
+			isa = PBXGroup;
+			children = (
+				8293F6C621AE8658005BDE6B /* PraiseToolVC */,
+				8293F69321AE8606005BDE6B /* PraiseToolDemo */,
+				8293F6AC21AE8608005BDE6B /* PraiseToolDemoTests */,
+				8293F6B721AE8608005BDE6B /* PraiseToolDemoUITests */,
+				8293F69221AE8606005BDE6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8293F69221AE8606005BDE6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8293F69121AE8606005BDE6B /* PraiseToolDemo.app */,
+				8293F6A921AE8608005BDE6B /* PraiseToolDemoTests.xctest */,
+				8293F6B421AE8608005BDE6B /* PraiseToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8293F69321AE8606005BDE6B /* PraiseToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8293F69421AE8606005BDE6B /* AppDelegate.h */,
+				8293F69521AE8606005BDE6B /* AppDelegate.m */,
+				8293F6CA21AE87E9005BDE6B /* ShowViewController.h */,
+				8293F6CB21AE87E9005BDE6B /* ShowViewController.m */,
+				8293F6CC21AE87E9005BDE6B /* ShowViewController.xib */,
+				8293F69721AE8606005BDE6B /* ViewController.h */,
+				8293F69821AE8606005BDE6B /* ViewController.m */,
+				8293F69A21AE8606005BDE6B /* Main.storyboard */,
+				8293F69D21AE8607005BDE6B /* Assets.xcassets */,
+				8293F69F21AE8607005BDE6B /* LaunchScreen.storyboard */,
+				8293F6A221AE8607005BDE6B /* Info.plist */,
+				8293F6A321AE8607005BDE6B /* main.m */,
+			);
+			path = PraiseToolDemo;
+			sourceTree = "<group>";
+		};
+		8293F6AC21AE8608005BDE6B /* PraiseToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8293F6AD21AE8608005BDE6B /* PraiseToolDemoTests.m */,
+				8293F6AF21AE8608005BDE6B /* Info.plist */,
+			);
+			path = PraiseToolDemoTests;
+			sourceTree = "<group>";
+		};
+		8293F6B721AE8608005BDE6B /* PraiseToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8293F6B821AE8608005BDE6B /* PraiseToolDemoUITests.m */,
+				8293F6BA21AE8608005BDE6B /* Info.plist */,
+			);
+			path = PraiseToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		8293F6C621AE8658005BDE6B /* PraiseToolVC */ = {
+			isa = PBXGroup;
+			children = (
+				8293F6C721AE8666005BDE6B /* PraiseToolVC.h */,
+				8293F6C821AE8666005BDE6B /* PraiseToolVC.m */,
+			);
+			path = PraiseToolVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8293F69021AE8606005BDE6B /* PraiseToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8293F6BD21AE8608005BDE6B /* Build configuration list for PBXNativeTarget "PraiseToolDemo" */;
+			buildPhases = (
+				8293F68D21AE8606005BDE6B /* Sources */,
+				8293F68E21AE8606005BDE6B /* Frameworks */,
+				8293F68F21AE8606005BDE6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PraiseToolDemo;
+			productName = PraiseToolDemo;
+			productReference = 8293F69121AE8606005BDE6B /* PraiseToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8293F6A821AE8608005BDE6B /* PraiseToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8293F6C021AE8608005BDE6B /* Build configuration list for PBXNativeTarget "PraiseToolDemoTests" */;
+			buildPhases = (
+				8293F6A521AE8608005BDE6B /* Sources */,
+				8293F6A621AE8608005BDE6B /* Frameworks */,
+				8293F6A721AE8608005BDE6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8293F6AB21AE8608005BDE6B /* PBXTargetDependency */,
+			);
+			name = PraiseToolDemoTests;
+			productName = PraiseToolDemoTests;
+			productReference = 8293F6A921AE8608005BDE6B /* PraiseToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8293F6B321AE8608005BDE6B /* PraiseToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8293F6C321AE8608005BDE6B /* Build configuration list for PBXNativeTarget "PraiseToolDemoUITests" */;
+			buildPhases = (
+				8293F6B021AE8608005BDE6B /* Sources */,
+				8293F6B121AE8608005BDE6B /* Frameworks */,
+				8293F6B221AE8608005BDE6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8293F6B621AE8608005BDE6B /* PBXTargetDependency */,
+			);
+			name = PraiseToolDemoUITests;
+			productName = PraiseToolDemoUITests;
+			productReference = 8293F6B421AE8608005BDE6B /* PraiseToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8293F68921AE8606005BDE6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 111;
+				TargetAttributes = {
+					8293F69021AE8606005BDE6B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8293F6A821AE8608005BDE6B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8293F69021AE8606005BDE6B;
+					};
+					8293F6B321AE8608005BDE6B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8293F69021AE8606005BDE6B;
+					};
+				};
+			};
+			buildConfigurationList = 8293F68C21AE8606005BDE6B /* Build configuration list for PBXProject "PraiseToolDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8293F68821AE8606005BDE6B;
+			productRefGroup = 8293F69221AE8606005BDE6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8293F69021AE8606005BDE6B /* PraiseToolDemo */,
+				8293F6A821AE8608005BDE6B /* PraiseToolDemoTests */,
+				8293F6B321AE8608005BDE6B /* PraiseToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8293F68F21AE8606005BDE6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8293F6A121AE8607005BDE6B /* LaunchScreen.storyboard in Resources */,
+				8293F69E21AE8607005BDE6B /* Assets.xcassets in Resources */,
+				8293F69C21AE8606005BDE6B /* Main.storyboard in Resources */,
+				8293F6CE21AE87E9005BDE6B /* ShowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8293F6A721AE8608005BDE6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8293F6B221AE8608005BDE6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8293F68D21AE8606005BDE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8293F6C921AE8666005BDE6B /* PraiseToolVC.m in Sources */,
+				8293F6CD21AE87E9005BDE6B /* ShowViewController.m in Sources */,
+				8293F69921AE8606005BDE6B /* ViewController.m in Sources */,
+				8293F6A421AE8607005BDE6B /* main.m in Sources */,
+				8293F69621AE8606005BDE6B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8293F6A521AE8608005BDE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8293F6AE21AE8608005BDE6B /* PraiseToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8293F6B021AE8608005BDE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8293F6B921AE8608005BDE6B /* PraiseToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8293F6AB21AE8608005BDE6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8293F69021AE8606005BDE6B /* PraiseToolDemo */;
+			targetProxy = 8293F6AA21AE8608005BDE6B /* PBXContainerItemProxy */;
+		};
+		8293F6B621AE8608005BDE6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8293F69021AE8606005BDE6B /* PraiseToolDemo */;
+			targetProxy = 8293F6B521AE8608005BDE6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8293F69A21AE8606005BDE6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8293F69B21AE8606005BDE6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8293F69F21AE8607005BDE6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8293F6A021AE8607005BDE6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8293F6BB21AE8608005BDE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8293F6BC21AE8608005BDE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8293F6BE21AE8608005BDE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PraiseToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyj.PraiseToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8293F6BF21AE8608005BDE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PraiseToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyj.PraiseToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8293F6C121AE8608005BDE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PraiseToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hbb.PraiseToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PraiseToolDemo.app/PraiseToolDemo";
+			};
+			name = Debug;
+		};
+		8293F6C221AE8608005BDE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PraiseToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hbb.PraiseToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PraiseToolDemo.app/PraiseToolDemo";
+			};
+			name = Release;
+		};
+		8293F6C421AE8608005BDE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PraiseToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hbb.PraiseToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PraiseToolDemo;
+			};
+			name = Debug;
+		};
+		8293F6C521AE8608005BDE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PraiseToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hbb.PraiseToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PraiseToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8293F68C21AE8606005BDE6B /* Build configuration list for PBXProject "PraiseToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8293F6BB21AE8608005BDE6B /* Debug */,
+				8293F6BC21AE8608005BDE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8293F6BD21AE8608005BDE6B /* Build configuration list for PBXNativeTarget "PraiseToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8293F6BE21AE8608005BDE6B /* Debug */,
+				8293F6BF21AE8608005BDE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8293F6C021AE8608005BDE6B /* Build configuration list for PBXNativeTarget "PraiseToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8293F6C121AE8608005BDE6B /* Debug */,
+				8293F6C221AE8608005BDE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8293F6C321AE8608005BDE6B /* Build configuration list for PBXNativeTarget "PraiseToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8293F6C421AE8608005BDE6B /* Debug */,
+				8293F6C521AE8608005BDE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8293F68921AE8606005BDE6B /* Project object */;
+}
